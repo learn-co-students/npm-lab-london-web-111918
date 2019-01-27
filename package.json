@@ -1,0 +1,31 @@
+{
+  "name": "holly",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atkinsonholly/npm-lab-london-web-111918.git"
+  },
+  "keywords": [
+    "First",
+    "npm",
+    "init"
+  ],
+  "author": "Holly",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/atkinsonholly/npm-lab-london-web-111918/issues"
+  },
+  "homepage": "https://github.com/atkinsonholly/npm-lab-london-web-111918#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.24.0"
+  }
+}
